@@ -1,20 +1,16 @@
 # Filmes Para Ti
 
-==============================
-
 O Filmes Pra Ti é um projeto para a disciplina MC855 A - Projeto em Sistemas de Computação, ministrada pela Prof. Dra. Juliana Freitag Borin e pelo PED Paulo Cesar Kussler.
 
-Project Organization
+Organização do Projeto
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── Makefile           <- Makefile com comandos do tipo `make data` ou `make train`
+    ├── README.md          <- O top-level README para os desenvolvedores usando este projeto.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── processed      <- Dados finais, os que de fato serão usados no modelo.
+    │   └── raw            <- Os dados originais, dados crus.
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
