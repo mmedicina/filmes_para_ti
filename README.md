@@ -9,7 +9,7 @@ Nosso grupo é composto por:
 - Murilo de Lima Cruz RA: 138923
 - Piethro Cesar de Andrade RA:223549
 
-Neste repositório, deixaremos todo o projeto de Machine Learning. Para organização dele, decidimos utilizar o template do Cookiecutter, muito comum em projetos de Machine Learning e Data Science.
+Neste repositório, deixaremos todo o projeto de Machine Learning. Para organização dele, decidimos utilizar o template do <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter</a>, muito comum em projetos de Machine Learning e Data Science.
 
 Organização do Projeto 
 ------------
@@ -21,41 +21,40 @@ Organização do Projeto
     │   ├── processed      <- Dados finais, os que de fato serão usados no modelo.
     │   └── raw            <- Os dados originais, dados crus.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Um projeto Sphinx; veja sphinx-doc.org para detalhes.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Modelos treinados e serializados, predições do modelo, ou resumos do modelo.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. O convenção de nomes é um número (para ordem), iniciais do nome da pessoa criou,
+    │                         e um curto `-` para delimitação da descrição.
+    │                         ex: `1.0-jqp-initial-data-exploration`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- Dicionários de dados, manuais, e outros materiais explanatórios.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Análises geradas, como HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Figuras e gráficos usados nos reports.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- O arquivo de requerimentos para reproduzir o projeto,
+    │                         ele é gerado com: `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── setup.py           <- faz o projeto ser instalado pelo pip (pip install -e .) e daí, o src pode ser importado.
+    ├── src                <- Código fonte do projeto.
+    │   ├── __init__.py    <- Cria src um módulo python.
     │   │
-    │   ├── data           <- Scripts to download or generate data
+    │   ├── data           <- Scripts para baixar ou gerar dados.
     │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   ├── features       <- Scripts tornar dados crus em features para o modelo.
     │   │   └── build_features.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
+    │   ├── models         <- Scripts para trainar os modelos e fazer previsões.
     │   │   ├── predict_model.py
     │   │   └── train_model.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │   └── visualization  <- Scripts para visualizar e explorar resultados.
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── tox.ini            <- Arquivo tox com configurações para rodar o tox; veja tox.readthedocs.io
 
 
 --------
