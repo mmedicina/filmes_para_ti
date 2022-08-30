@@ -25,8 +25,8 @@ Organização do Projeto
     │
     ├── models             <- Modelos treinados e serializados, predições do modelo, ou resumos do modelo.
     │
-    ├── notebooks          <- Jupyter notebooks. O convenção de nomes é um número (para ordem), iniciais do nome da pessoa criou,
-    │                         e um curto `-` para delimitação da descrição.
+    ├── notebooks          <- Jupyter notebooks. O convenção de nomes é um número (para ordem), 
+    │                         iniciais do nome da pessoa criou, e um `-` para delimitação da descrição.
     │                         ex: `1.0-jqp-initial-data-exploration`.
     │
     ├── references         <- Dicionários de dados, manuais, e outros materiais explanatórios.
