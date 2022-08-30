@@ -2,12 +2,13 @@
 
 O Filmes Pra Ti é um projeto para a disciplina MC855 A - Projeto em Sistemas de Computação, ministrada pela Prof. Dra. Juliana Freitag Borin e pelo PED Paulo Cesar Kussler.
 Nosso grupo é composto por:
-- Heigon Alafaire Soldera Pires RA:217638
+- Heigon Alafaire Soldera Pires RA: 217638
+- Ian Loron de Almeida RA: 198933
 - Luana Felipe de Barros      RA: 201705
 - Lucas B.A. Farias RA:220650
 - Marcela Medicina Ferreira RA: 183266
 - Murilo de Lima Cruz RA: 138923
-- Piethro Cesar de Andrade RA:223549
+- Piethro Cesar de Andrade RA: 223549
 
 Neste repositório, deixaremos todo o projeto de Machine Learning. Para organização dele, decidimos utilizar o template do <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter</a>, muito comum em projetos de Machine Learning e Data Science.
 
